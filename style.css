@@ -1,0 +1,311 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.nav {
+    background-color: rgb(74, 74, 74);
+    height: 60px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+li {
+    list-style-type: none;
+    margin: 18px;
+  
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+    font-weight: bold;
+}
+
+.main {
+    width: 90%;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: rgb(20, 54, 88);
+}
+
+
+
+img {
+    padding-left: 60px;
+    height: 425px;
+    ;
+}
+
+
+
+
+
+.content {
+    display: flex;
+    height: 60vh;
+    justify-content: space-evenly;
+}
+
+.education {
+
+    color: rgb(251, 255, 0);
+    width: 35%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+    background-color: rgba(245, 240, 240, 0.096);
+    margin-top: 40px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.Projects {
+    margin-top: 40px;
+    color: rgb(0, 255, 251);
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    height: 410px;
+    background-color: rgba(255, 255, 255, 0.096);
+    font-size: 17px;
+    border-radius: 5px;
+
+}
+.heading{animation:box  3s ease-in-out  infinite;}
+.heading2 {
+    text-decoration: underline;
+
+    margin-left: 5px;
+}
+
+
+.heading3 {
+    text-decoration: underline;
+    ;
+}
+
+
+
+.content2 {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skills {
+    background-color: rgba(255, 255, 255, 0.052);
+    width: 35%;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.port{color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: 15px;}
+
+.natural {
+    animation: animate 1s  ease-in-out 1;
+}
+
+
+.seven {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #00fbff;
+    height: 18px;
+}
+
+.green {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 18px;
+    margin: 0px 5px;
+    border-radius: 10px;
+}
+
+.dark {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.civic {
+    background-color: rgba(255, 255, 255, 0.052);
+    color: rgb(0, 255, 251);
+    width: 35%;
+    height: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    font-size: 17px;
+
+}
+
+.heading5 {
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+.heading5,
+.yellow {
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes animate {
+    0%{ transform: rotate(180deg);
+    }
+
+   50%{
+        color: rgb(255, 0, 170);
+    }
+    100%{  transform: rotate(360);}
+}
+
+@keyframes box{
+    0%{ transform: translateX(15px);
+    }
+
+   
+    100%{  transform: scaleX(10deg)
+    ; }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .main {
+        display: block;
+        height: 65vh;
+        background-color: black;
+    }
+
+    .heading {
+       padding-top: 10px;
+        font-size: 20px;
+    }
+    
+    .intro{margin-left: 15px;}
+
+    img {
+        width: 350px;
+        height: 350px;
+      padding-top: 25px;
+     margin-left: 45px;
+    }
+
+    .content {
+    display: block;
+     height: 120vh;
+    }
+
+    .education {
+        width: 80%;
+        font-size: 15px;
+        height: 54vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 5px;
+    }
+
+    .Projects {
+        width: 80%;
+        font-size: 15px;
+        height: 54vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 5px;
+    }
+    
+
+    .content2 {
+    display: block;
+    height: 124vh;
+    
+   
+    }
+
+    .heading3,.heading2,.heading5 {padding-top: 5px;
+        font-size: 18px;
+    }
+    
+
+    .skills {
+        width: 80%;
+        font-size: 15px;
+        height: 58vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 5px;
+    }
+    .civic{ width: 80%;
+        font-size: 15px;
+        height: 61vh;
+        margin-left: auto;
+        margin-right: auto;margin-top: 30px;
+        padding: 0px 0px;}
+
+        
+        
+
+    .green {height: 12px;
+       }
+    .seven {
+        height: 12px;
+       
+    }
+    .link{font-size: 13px;}
+li{font-size: 13px;}
+.natural{font-size: 15px; }
+    .para0 {
+        font-size: 14px;
+        margin: 0px 0px;
+    }
+
+    .head {
+        font-size: 20px;
+    }
+
+    .seven {
+        font-size: 12px;
+    }
+
+    .green {
+        padding: 0px 0px;
+    }
+}
